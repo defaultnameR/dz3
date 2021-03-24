@@ -1,0 +1,17 @@
+# def my_func(x, y):
+#     return pow(x, y)
+#
+#
+# print(f"{my_func(float(input('Первое число')), int(input('Второе степень')))}")
+
+def my_func(x, y):
+    result = 1
+    for i in range(abs(y)):
+        result *= x
+    if y >= 0:
+        return result
+    else:
+        return 1 / result
+
+
+print(my_func(float(input("Ввиде число ")), int(input("Введи степень "))))
