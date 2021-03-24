@@ -1,0 +1,11 @@
+def my_func(a, b, c):
+    if a > b and c > b:
+        return a + c
+    elif b > a and c > a:
+        return b + c
+    elif a > c and b > c:
+        return a + b
+
+
+print(
+    f'Результат - {my_func(int(input("1 - ")), int(input("2 - ")), int(input("3 - ")))}')
