@@ -1,0 +1,7 @@
+def int_func():
+    word = input("Введи текст ")
+    print(word.title())
+    return
+
+
+int_func()
