@@ -1,0 +1,13 @@
+name = input("Введи имя")
+surname = input("Введи фамилию ")
+birth = input("Год рождения ")
+city = input("Город проживания ")
+email = input("Введи email ")
+phone = input("Введи телефон ")
+
+
+def profile(name, surname, birth, city, email, phone):
+    return ' '.join([name, surname, birth, city, email, phone])
+
+
+print(profile(name, surname, birth, city, email, phone))
